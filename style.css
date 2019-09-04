@@ -164,10 +164,25 @@ body {
   transform: translateY(0);
 }
 
+.email-link {
+  font-size: 1em;
+  color: #757575;
+  text-decoration: none;
+  margin-top: 1em;
+  transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1) 2s;
+  transform: translateY(1em);
+  opacity: 0;
+}
+
+.loaded .email-link {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .logo {
   margin-top: 5em;
   width: 7em;
-  transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1) 2.6s;
+  transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1) 2.8s;
   opacity: 0;
 }
 
